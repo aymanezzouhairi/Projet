@@ -61,9 +61,15 @@ Ce projet permet de gérer les demandes d'achat au sein d'une organisation. Les 
     ```bash
     npm install
     ```
+    npm install axios
+   ```
+   npm install react-router-dom
 
-3. Exécutez l'application frontend :
+4. Exécutez l'application frontend :
 
     ```bash
     npm start
     ```
+    ---
+
+Merci d'utiliser notre application de gestion des demandes d'achat !
