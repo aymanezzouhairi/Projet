@@ -14,7 +14,7 @@ public class Configuration implements WebMvcConfigurer {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Applique la configuration à tous les chemins
-                        .allowedOrigins("http://localhost:3000,http://192.168.56.1:3000") // Liste des origines autorisées (frontend)
+                        .allowedOrigins("http://localhost:3000") // Liste des origines autorisées (frontend)
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Méthodes HTTP autorisées
                         .allowedHeaders("*") // En-têtes autorisés
                         .allowCredentials(true); // Autorise les cookies et les informations d'identification
